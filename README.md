@@ -21,30 +21,30 @@ C++로 코테를 준비하기로 결심한 이후, 자료구조부터 차근차�
 ```
 ├── data_structures_and_algorithms/
 │   ├── 01-fundamentals/            # 기초 (복잡도 분석 등)
-│   ├── 02-maths-recursion/         # 수학, 패턴, 재귀
-│   ├── 03-array-string/            # 배열 & 문자열
+│   ├── 02-maths_recursion/         # 수학, 패턴, 재귀
+│   ├── 03-array_string/            # 배열 & 문자열
 │   ├── 04-searching/               # 탐색
 │   ├── 05-sorting/                 # 정렬
-│   ├── 06-bit-manipulation/        # 비트 조작
+│   ├── 06-bit_manipulation/        # 비트 조작
 │   ├── 07-hashing/                 # 해싱
-│   ├── 08-two-pointer/             # 투 포인터
-│   ├── 09-sliding-window/          # 슬라이딩 윈도우
-│   ├── 10-prefix-sum/              # 프리픽스 합
+│   ├── 08-two_pointer/             # 투 포인터
+│   ├── 09-sliding_window/          # 슬라이딩 윈도우
+│   ├── 10-prefix_sum/              # 프리픽스 합
 │   ├── 11-backtracking/            # 백트래킹
-│   ├── 12-linked-list/             # 연결 리스트
+│   ├── 12-linked_list/             # 연결 리스트
 │   ├── 13-stack/                   # 스택
 │   ├── 14-queue/                   # 큐
 │   ├── 15-deque/                   # 덱
-│   ├── 16-binary-tree/             # 이진 트리
-│   ├── 17-binary-search-tree/      # 이진 탐색 트리
+│   ├── 16-binary_tree/             # 이진 트리
+│   ├── 17-binary_search_tree/      # 이진 탐색 트리
 │   ├── 18-heap/                    # 힙
 │   ├── 19-graph/                   # 그래프
 │   ├── 20-greedy/                  # 그리디
-│   ├── 21-dynamic-programming/     # 동적 계획법
-│   ├── 22-number-theory/           # 정수론
+│   ├── 21-dynamic_programming/     # 동적 계획법
+│   ├── 22-number_theory/           # 정수론
 │   ├── 23-trie/                    # 트라이
-│   ├── 24-string-matching/         # 문자열 매칭
-│   └── 25-range-query/             # 세그먼트 트리 / 펜윅 트리
+│   ├── 24-string_matching/         # 문자열 매칭
+│   └── 25-range_query/             # 세그먼트 트리 / 펜윅 트리
 └── README.md
 ```
 
