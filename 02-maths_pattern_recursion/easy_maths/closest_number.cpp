@@ -28,22 +28,22 @@ using namespace std;
 //   return 0;
 // }
 
-// // [Expected Approach] By finding Quotient - O(1) Time and O(1) Space
-// int closestNumber(int n, int m) {
-//   int q = n / m;
+// [Expected Approach] By finding Quotient - O(1) Time and O(1) Space
+int closestNumber(int n, int m) {
+  int q = n / m;
 
-//   int n1 = m * q;
+  int n1 = m * q;
 
-//   int n2 = (n * m) > 0 ? (m * (q + 1)) : (m * (q - 1));
+  int n2 = (n * m) > 0 ? (m * (q + 1)) : (m * (q - 1));
 
-//   if (abs(n - n1) < abs(n - n2)) return n1;
+  if (abs(n - n1) < abs(n - n2)) return n1;
 
-//   return n2;
-// }
+  return n2;
+}
 
-// int main() {
-//   int n = 13, m = 4;
-//   cout << closestNumber(n, m) << endl;
+int main() {
+  int n = 13, m = 4;
+  cout << closestNumber(n, m) << endl;
 
-//   return 0;
-// }
+  return 0;
+}
