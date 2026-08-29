@@ -30,14 +30,10 @@ using namespace std;
 //     return 0;
 // }
 
-// // [Expected Approach] Formula Based Method- O(1) Time and O(1) Space
-// int findSum(int n)
-// {
-//     return n * (n + 1) / 2;
-// }
-// int main()
-// {
-//    int n = 5;
-//    cout << findSum(n);
-//    return 0;
-// }
+// [Expected Approach] Formula Based Method- O(1) Time and O(1) Space
+int findSum(int n) { return n * (n + 1) / 2; }
+int main() {
+  int n = 5;
+  cout << findSum(n);
+  return 0;
+}
