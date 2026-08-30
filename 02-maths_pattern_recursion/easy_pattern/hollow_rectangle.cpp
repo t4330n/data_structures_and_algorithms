@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-// Using Nested Loops – O(n*m) Time and O(1) Space
+// Using Nested Loops
+// O(n*m) Time and O(1) Space
 void printHollowRect(int n, int m) {
   int i, j;
   for (i = 1; i <= n; i++) {
