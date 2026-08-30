@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-// Using Nested Loops - O(n²) Time and O(1) Space
+// Using Nested Loops
+// O(n²) Time and O(1) Space
 void printfloydtriangle(int n) {
   int val = 1;
   for (int i = 1; i <= n; i++) {
