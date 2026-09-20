@@ -23,6 +23,8 @@ int main() {
 
   rotateArr(arr, d);
 
-  for (int i = 0; i < arr.size(); i++) cout << arr[i] << " ";
+  for (int i = 0; i < arr.size(); i++) {
+    cout << arr[i] << " ";
+  }
   return 0;
 }
